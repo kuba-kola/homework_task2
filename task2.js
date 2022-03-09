@@ -7,6 +7,7 @@ function calc() {
     }
 
     const secondParam = +prompt("Введите второе значение");
+    
     if (isNaN(secondParam)) {
         console.log('Некорректный ввод!');
     } else {
