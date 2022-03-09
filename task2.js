@@ -7,13 +7,13 @@ function calc() {
     }
 
     const secondParam = +prompt("Введите второе значение");
-    const sum = firstParam + secondParam;
-    const quotient = firstParam / secondParam;
     if (isNaN(secondParam)) {
         console.log('Некорректный ввод!');
     } else {
+        const sum = firstParam + secondParam;
+        const quotient = firstParam / secondParam;
         console.log(`Ответ: ${sum}, ${quotient}.`);
-    }
+    }    
 }
 
 calc();
